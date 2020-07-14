@@ -1,22 +1,19 @@
 {
-  "name": "Youtube Float by Aonix",
+  "name": "Youtube Float",
   "version": "1.0.0",
   "description": "Float YouTube videos in a float player",
   "manifest_version": 2,
   "permissions": [
-    "management",
     "tabs",
     "https://www.youtube.com/",
-    "storage",
     "contextMenus",
-    "declarativeContent",
-    "nativeMessaging"
+    "declarativeContent"
   ],
   "page_action": {
     "default_icon": {
       "19": "icon.png"
     },
-    "default_title": "Youtube Float by Aonix"
+    "default_title": "Youtube Float"
   },
   "background": {
     "persistent": false,
