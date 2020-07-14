@@ -13,7 +13,7 @@ function setIframeSize(iframe: HTMLIFrameElement) {
 try {
   const videoURL = Object.values(window.process.argv).find(item => item.search('aonix-youtube-float://') > -1)
   if (!videoURL) {
-    throw new Error('URL do vídeo não iformada, use o aplicativo pela extensão do navegador.')
+    throw new Error('URL do vídeo não informada, use o aplicativo pela extensão do navegador.')
   }
 
   const regex = new RegExp('[/|=]([a-zA-Z0-9_-]{10,15})')
